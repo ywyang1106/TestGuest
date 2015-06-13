@@ -1,0 +1,92 @@
+@CHARSET "UTF-8";
+#member{
+	width: auto;
+	height: 600px;
+	border: 2px solid #ccc;
+	font-size: 12px;
+}
+#member h2{
+	text-indent: 0;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+}
+#member #memberSidebar{
+	width: 300px;
+	height: 500px;
+	margin: 15px;
+	border: 1px dashed #999;
+	float: left;
+}
+#member #memberSidebar dl{
+	width: 250px;
+	background: red;
+	margin: 15px auto;
+}
+#member #memberSidebar dl dt{
+	height: 40px;
+	line-height: 40px;
+	background: #999;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+}
+#member #memberSidebar dl dd{
+	height: 40px;
+	line-height: 40px;
+	background: #eee;
+	font-weight: bold;
+	text-align: center;
+}
+#member #memberSidebar dl dd a{
+	display: block;
+	color: #333;
+	text-decoration: none;
+}
+#member #memberSidebar dl dd a:hover{
+	background: #ccc;
+}
+#member #memberMainArea{
+	width: 590px;
+	height: 500px;
+	margin: 15px;
+	border: 1px dashed #999;
+	float: right;
+}
+#member #memberMainArea dl{
+	width: 500px;
+	margin: 15px auto;
+	font-size: 14px;
+}
+#member #memberMainArea dl dd{
+	padding: 10px 0;
+	border-bottom: 1px dashed #999;
+}
+#member #memberMainArea dl dd p textarea{
+	width: 220px;
+	height: 60px;
+	border: 1px dashed #333;
+	background: #fff;
+	margin: 5px 0 0 70px;
+}
+#member #memberMainArea dl dd input.text{
+	width: 220px;
+	height: 19px;
+	border: 1px dashed #333;
+	background: #fff;
+}
+#member #memberMainArea dl dd input.captcha{
+	width: 60px;
+}
+#member #memberMainArea dl dd img#captcha{
+	position: relative;
+	top: 10px;
+	cursor: pointer;
+}
+#member #memberMainArea dl dd input.submit{
+	width: 60px;
+	height: 22px;
+	border: 1px dashed #333;
+	background: #fff;
+	cursor: pointer;
+}

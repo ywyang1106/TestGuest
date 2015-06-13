@@ -1,0 +1,47 @@
+@CHARSET "UTF-8";
+#photoAddImage{
+	width: auto;
+	height: 600px;
+	border: 2px solid #ccc;
+	font-size: 12px;
+}
+#photoAddImage h2{
+	text-indent: 0;
+	text-align: center;
+}
+#photoAddImage p{
+	text-align: center;
+	padding: 20px;
+}
+#photoAddImage a{
+	font-size: 14px;
+	color: #333;
+}
+#photoAddImage dl{
+	width: 280px;
+	margin: 20px auto;
+}
+#photoAddImage dl dd{
+	padding: 5px 0;
+}
+#photoAddImage dl dd input.text{
+	border: 1px dashed #333;
+	background: #fff;
+	width: 180px;
+	height: 19px;
+}
+#photoAddImage dl dd textarea{
+	border: 1px dashed #333;
+	background: #fff;
+	width: 180px;
+	height: 70px;
+}
+#photoAddImage dl dd input.submit{
+	border: 1px dashed #333;
+	background: #fff;
+	width: 60px;
+	height: 19px;
+	cursor: pointer;
+	pading: 0 0 2px 0;
+	margin: 0 0 100px 0;
+}

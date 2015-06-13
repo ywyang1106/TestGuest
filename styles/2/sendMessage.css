@@ -1,0 +1,44 @@
+@CHARSET "UTF-8";
+body{
+	width: auto;
+}
+#sendMessage h3{
+	width: 90%;
+	margin: 10px auto;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px dashed #333;
+	background: #eee;
+}
+#sendMessage dl{
+	width: 90%;
+	margin: 0 auto;
+}
+#sendMessage dl dd{
+	margin: 5px 0;
+}
+#sendMessage dl dd input.text{
+	width: 180px;
+	height: 19px;
+	background: #fff;
+	border: 1px dashed #333;
+}
+#sendMessage dl dd input.captcha{
+	width: 60px;
+}
+#sendMessage dl dd textarea{
+	width: 100%;
+	height: 120px;
+	background: #fff;
+	border: 1px dashed #333;
+	overflow-y: scroll
+}
+#sendMessage dl dd img#captcha{
+	postion: relative;
+	top: 10px;
+	cursor: pointer;
+}
+#sendMessage dl dd input.submit{
+	cursor: pointer;
+}

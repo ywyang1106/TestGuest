@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+#blogFriend{
+	width: auto;
+	height: 800px;
+	border: 2px solid #ccc;
+	font-size: 12px;
+}
+#blogFriend h2{
+	text-indent: 0;
+	text-align: center;
+}
+#blogFriend dl{
+	width: 150px;
+	margin:10px 0 0 32px;
+	float:left;
+}
+#blogFriend dl dt{
+	width: 150px;
+	margin: 0 0 5px 0;
+}
+#blogFriend dl dt img{
+	margin: 0 auto;
+	display:block;
+}
+#blogFriend dl dd{
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	width: 75px;
+	float: left;
+}
+#blogFriend dl dd a{
+	text-decoration: none;
+	color: #333;
+}
+#blogFriend dl dd.friend{
+	width: 150px;
+	float: none;
+	color: #f60;
+}
+#blogFriend dl dd.sendMessage{
+	background: url(../../images/x1.gif) no-repeat 5px 35%;
+}
+#blogFriend dl dd.addFriend{
+	background: url(../../images/x2.gif) no-repeat left 35%;
+}
+#blogFriend dl dd.leaveMessage{
+	background: url(../../images/x3.gif) no-repeat 5px 35%;
+}
+#blogFriend dl dd.sendFlower{
+	background: url(../../images/x4.gif) no-repeat left 35%;
+}

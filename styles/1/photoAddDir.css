@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+#photoAddDir{
+	width: auto;
+	height: 600px;
+	border: 2px solid #ccc;
+	font-size: 12px;
+}
+#photoAddDir h2{
+	text-indent: 0;
+	text-align: center;
+}
+#photoAddDir p{
+	text-align: center;
+	padding: 20px;
+}
+#photoAddDir a{
+	font-size: 14px;
+	color: #333;
+}
+#photoAddDir dl{
+	width: 280px;
+	margin: 20px auto;
+}
+#photoAddDir dl dd{
+	padding: 5px 0;
+}
+#photoAddDir dl dd input.text{
+	border: 1px dashed #333;
+	background: #fff;
+	width: 180px;
+	height: 19px;
+}
+#photoAddDir dl dd textarea{
+	border: 1px dashed #333;
+	background: #fff;
+	width: 180px;
+	height: 70px;
+}
+#photoAddDir form dl dd#password{
+	display: none;
+}
+#photoAddDir dl dd input.submit{
+	border: 1px dashed #333;
+	background: #fff;
+	width: 60px;
+	height: 19px;
+	cursor: pointer;
+	pading: 0 0 2px 0;
+	margin: 0 0 100px 0;
+}
